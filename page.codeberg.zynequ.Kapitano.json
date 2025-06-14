@@ -78,7 +78,7 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/zynequ/Kapitano.git",
-                    "commit": "48ac648dc4e320fb25aebe8d84231f3125e37a27"
+                    "tag": "1.1"
                 }
             ]
         }
