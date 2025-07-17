@@ -42,7 +42,12 @@
                 {
                     "type": "git",
                     "url": "https://github.com/json-c/json-c.git",
-                    "tag": "json-c-0.18-20240915"
+                    "tag": "json-c-0.18-20240915",
+                    "commit": "41a55cfcedb54d9c1874f2f0eb07b504091d7e37",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^json-c-([\\d.]+)-[\\d]+$"
+                    }
                 }
             ]
         },
@@ -65,8 +70,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.4.2/clamav-1.4.2.tar.gz",
-                    "sha256": "8c92f8ade2a8f2c9d6688d1d63ee57f6caf965d74dce06d0971c6709c8e6c04c"
+                    "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.4.3/clamav-1.4.3.tar.gz",
+                    "sha256": "d874cabf3d4765b35b518ef535658a1e6ec74802006a1d613f9f124aa1343210",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 291,
+                        "url-template": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -78,7 +88,12 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/zynequ/Kapitano.git",
-                    "tag": "1.1.2"
+                    "tag": "1.1.2",
+                    "commit": "eb031344eb273008cdaa641c42c71bfdab735507",
+                    "x-checker-data": {
+                        "type": "git",
+                        "tag-pattern": "^([\\d.]+)$"
+                    }
                 }
             ]
         }
