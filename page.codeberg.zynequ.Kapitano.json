@@ -88,7 +88,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/zynequ/Kapitano.git",
-                    "tag": "1.1.3",
+                    "tag": "1.1.4",
+                    "commit": "f6898ae66fb058ba8565ece3fa5cab0fceafd42d",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
